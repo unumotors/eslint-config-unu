@@ -14,7 +14,7 @@ module.exports = {
         'prefer-arrow-callback': 'off',
         'no-use-before-define': 'off',
         'eqeqeq': 'off',
-        'curly': ['warn', 'multi-or-nest'],
+        'curly': ['warn', 'multi-line'],
         'no-underscore-dangle': [2, {allowAfterThis: true, allow: ['_instance']}],
         'no-unused-expressions': ['error', {'allowShortCircuit': true, 'allowTernary': true}],
         'max-len': ['error', 120],
@@ -28,6 +28,7 @@ module.exports = {
         'no-continue': 'off',
         'no-plusplus': 'off',
         'one-var': ['error', {'initialized': 'never'}],
+        'one-var-declaration-per-line': ['error', 'initializations'],
         'no-extend-native': ['error', {'exceptions': ['Error']}],
         'new-cap': 'off',
         'quote-props': ['error', 'consistent'],
@@ -37,6 +38,7 @@ module.exports = {
         'no-alert': 'off',
         'no-nested-ternary': 'off',
         'quotes': ['error', 'single', {'allowTemplateLiterals': true}],
-        'no-empty': ['error', {'allowEmptyCatch': true}]
+        'no-empty': ['error', {'allowEmptyCatch': true}],
+        'no-confusing-arrow': 'off'
     }
 };
