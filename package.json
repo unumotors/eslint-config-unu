@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+ssh://git@github.com/unumotors/eslint-config-unu.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "keywords": [
     "eslint",
     "eslintconfig"
