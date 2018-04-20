@@ -39,6 +39,10 @@ module.exports = {
         'no-nested-ternary': 'off',
         'quotes': ['error', 'single', {'allowTemplateLiterals': true}],
         'no-empty': ['error', {'allowEmptyCatch': true}],
-        'no-confusing-arrow': 'off'
+        'no-confusing-arrow': 'off',
+        'import/extensions': ['error', 'always', {
+          js: 'never'
+        }],
+        'import/no-extraneous-dependencies': ['error', { optionalDependencies: false }]
     }
 };
