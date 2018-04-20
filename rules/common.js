@@ -15,7 +15,7 @@ module.exports = {
         'no-use-before-define': 'off',
         'eqeqeq': 'off',
         'curly': ['warn', 'multi-line'],
-        'no-underscore-dangle': [2, {allowAfterThis: true, allow: ['_instance']}],
+        'no-underscore-dangle': [2, {allowAfterThis: true, allow: ['_instance', '__']}],
         'no-unused-expressions': ['error', {'allowShortCircuit': true, 'allowTernary': true}],
         'max-len': ['error', 120],
         'guard-for-in': 'off',
