@@ -23,6 +23,7 @@
   "peerDependencies": {
     "eslint": ">= 4",
     "eslint-config-airbnb-base": ">= 12",
-    "eslint-friendly-formatter": "^3.0.0"
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-plugin-import": "^2.7.0"
   }
 }
