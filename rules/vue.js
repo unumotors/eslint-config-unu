@@ -4,7 +4,7 @@ module.exports = {
     ],
     // required to lint *.vue files
     plugins: [
-        'html'
+        'vue'
     ],
     rules: {
         // don't require .vue extension when importing
