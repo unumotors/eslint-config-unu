@@ -1,6 +1,6 @@
 module.exports = {
     rules: {
-        'indent': ['error', 4, {'SwitchCase': 1}],
+        'indent': ['error', 2, {'SwitchCase': 1}],
         'no-var': 'off',
         'no-param-reassign': 'off',
         'space-before-function-paren': ['error', 'never'],
@@ -43,6 +43,8 @@ module.exports = {
         'import/extensions': ['error', 'always', {
           js: 'never'
         }],
-        'import/no-extraneous-dependencies': ['error', { optionalDependencies: false }]
+        'import/no-extraneous-dependencies': ['error', { optionalDependencies: false }],
+        'semi': ['error', 'never'],
+        'no-unexpected-multiline': 'error'
     }
 };
