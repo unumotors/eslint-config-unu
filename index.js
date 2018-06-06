@@ -1,9 +1,9 @@
 module.exports = {
-    'extends': [
-        'airbnb-base',
-        './rules/common.js'
-    ],
-    'plugins': [
-        'import'
-    ]
+  'extends': [
+    'airbnb-base',
+    './rules/common.js'
+  ],
+  'plugins': [
+    'import'
+  ]
 }
