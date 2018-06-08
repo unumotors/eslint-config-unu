@@ -22,9 +22,11 @@
   "homepage": "https://github.com/unumotors/eslint-config-unu#readme",
   "peerDependencies": {
     "eslint": ">= 4",
-    "eslint-config-airbnb-base": ">= 12",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-vue": "^4.3.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.1.0"
   }
 }
