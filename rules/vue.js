@@ -22,4 +22,4 @@ module.exports = {
     'vue/order-in-components': 'warn',
     'vue/require-prop-types': 'warn'
   }
-};
+}
